@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://tchangk.top/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2020-07-21T08:25:59.658Z</updated>
-  <id>http://tchangk.top/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://tchangk.top/2020/07/21/hello-world/"/>
-    <id>http://tchangk.top/2020/07/21/hello-world/</id>
+    <link href="http://yoursite.com/2020/07/21/hello-world/"/>
+    <id>http://yoursite.com/2020/07/21/hello-world/</id>
     <published>2020-07-21T08:25:59.657Z</published>
     <updated>2020-07-21T08:25:59.658Z</updated>
     

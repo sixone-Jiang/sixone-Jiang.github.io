@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Welcome to TK&#39;s BLOG</title>
   
-  
+  <subtitle>Everything&#39;s Balanced.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tchangk.com/"/>

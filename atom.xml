@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Welcome to TK&#39;s BLOG</title>
+  <title>Welcome to Alice&#39;s BLOG</title>
   
-  <subtitle>Everything&#39;s Balanced.</subtitle>
+  <subtitle>Everything&#39;s Nothing.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tchangk.com/"/>
@@ -10,7 +10,7 @@
   <id>http://www.tchangk.com/</id>
   
   <author>
-    <name>Tchang_K</name>
+    <name>Alice</name>
     
   </author>
   

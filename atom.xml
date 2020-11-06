@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tchangk.com/"/>
-  <updated>2020-11-06T04:21:54.019Z</updated>
+  <updated>2020-11-06T12:51:51.206Z</updated>
   <id>http://www.tchangk.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蓝桥杯</title>
+    <link href="http://www.tchangk.com/2020/11/06/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    <id>http://www.tchangk.com/2020/11/06/%E8%93%9D%E6%A1%A5%E6%9D%AF/</id>
+    <published>2020-11-06T12:41:27.000Z</published>
+    <updated>2020-11-06T12:51:51.206Z</updated>
+    
+    <content type="html"><![CDATA[<p>应该会是我最后一次涉足算法竞赛吧，预祝我获得一个良好的成绩哟~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;应该会是我最后一次涉足算法竞赛吧，预祝我获得一个良好的成绩哟~&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Algorithm" scheme="http://www.tchangk.com/tags/Algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Miracle</title>

@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>HappyBirthday</title>
+    <link href="/2020/11/18/HappyBirthday/"/>
+    <url>/2020/11/18/HappyBirthday/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Birthday</title>
+    <link href="/2020/11/18/Birthday/"/>
+    <url>/2020/11/18/Birthday/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://sixone-jiang.github.io/2020/11/11/%E8%87%B4%E5%91%BD%E7%9A%84%E8%87%AA%E8%B4%9F/">点这里</a></p><h1 id="First-of-all"><a href="#First-of-all" class="headerlink" title="First of all"></a>First of all</h1><p><img src="/img/birthday_img_1.jpg" alt="image"></p><h1 id="画画"><a href="#画画" class="headerlink" title="画画~"></a>画画~</h1><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_0.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h1 id="pre-Video"><a href="#pre-Video" class="headerlink" title="pre_Video"></a>pre_Video</h1><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_2.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h1 id="new-Video"><a href="#new-Video" class="headerlink" title="new_Video"></a>new_Video</h1><div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_3.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><div id="dplayer4" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer4"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h1 id="special-Video"><a href="#special-Video" class="headerlink" title="special_Video"></a>special_Video</h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>致命的自负</title>
     <link href="/2020/11/11/%E8%87%B4%E5%91%BD%E7%9A%84%E8%87%AA%E8%B4%9F/"/>
     <url>/2020/11/11/%E8%87%B4%E5%91%BD%E7%9A%84%E8%87%AA%E8%B4%9F/</url>

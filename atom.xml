@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Welcome to Alice&#39;s BLOG</title>
   
-  <subtitle>Everything&#39;s Nothing.</subtitle>
+  <subtitle>Love you love, create you can.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/"/>
-  <updated>2021-02-01T07:52:24.336Z</updated>
+  <updated>2021-04-20T03:19:47.479Z</updated>
   <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CV.md</title>
+    <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2021/04/20/CV/"/>
+    <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2021/04/20/CV/</id>
+    <published>2021-04-20T02:16:03.000Z</published>
+    <updated>2021-04-20T03:19:47.479Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="计算机视觉入门清单"><a href="#计算机视觉入门清单" class="headerlink" title="计算机视觉入门清单"></a>计算机视觉入门清单</h1><h2 id="一些题外话"><a href="#一些题外话" class="headerlink" title="一些题外话"></a>一些题外话</h2><p>这是一个新手友好但专家会耻笑的清单，如果您已经在这方面有所研究，请绕道</p><h2 id="1、一些基本准备"><a href="#1、一些基本准备" class="headerlink" title="1、一些基本准备"></a>1、一些基本准备</h2><ul><li><p>首先我们假设您了解过python语言 （<a href="https://www.liaoxuefeng.com/wiki/1016959663602400">如果你没有请点击这里</a>）</p></li><li><p>假设您清楚（<a href="https://zhuanlan.zhihu.com/p/43268790">如何使用python读取一张图片</a>）</p></li><li><p>假设您对python的matplotlib、numpy、PIL、opencv库有一定了解</p></li><li><p>您需要经常查阅网络相关资料，具体问答社区我推荐掘金、思否，我不建议直接使用百度</p></li></ul><p>如果以上您都没有接触过，没关系，您只需稍微熟悉python语言，便可以开始接下来的步骤</p><h2 id="2、机器学习-深度学习"><a href="#2、机器学习-深度学习" class="headerlink" title="2、机器学习-深度学习"></a>2、机器学习-深度学习</h2><p>什么？我们不是要学习计算机视觉（CV）吗？机器学习又是什么东东？</p><ul><li><p>这里有一本我建议你快速翻阅的书：</p><p>机器学习 周志华</p><p>（您可用通过<a href="https://www.jiumodiary.com/">鸠摩搜书</a>找到它）</p></li><li><p>您可能并不喜欢书中不容易理解的概念，也许观看视频是对您更好的方式，视频无毒，放心使用<a href="https://www.bilibili.com/video/BV17J411C7zZ?from=search&seid=3607404159794833850">点击这里</a></p></li><li><p>也许您并不想按部就班的开始，所以您也可用观看以下教程</p><p><a href="https://www.bilibili.com/video/BV1nJ411z7fe?from=search&seid=12810390985792567284">计算机视觉</a></p></li><li><p>这并不是最好的，如果您擅长英文，且清楚如何科学上网，您可以观国外的计算机视觉课程</p></li></ul><h2 id="3、框架"><a href="#3、框架" class="headerlink" title="3、框架"></a>3、框架</h2><p>不用着急，相信在学习之后，你将会了解到什么是聚类、回归、梯度下降、支持向量机、卷积神经网络、正向传播…我们会很自然的理解为什么要学习机器学习-深度学习，以及什么是计算机视觉，它有哪些应用</p><p>这里有两个重要框架的教程，您将通过一些流行框架快速构建您的深度学习-计算机视觉项目</p><ul><li><p><a href="https://www.tensorflow.org/guide/keras/sequential_model?hl=zh_cn">kears教程</a></p></li><li><p><a href="https://www.tensorflow.org/guide/keras/sequential_model?hl=zh_cn">tensorflow教程</a></p></li><li><p><a href="https://pytorch.org/">pytorch教程</a></p></li></ul><h2 id="4、项目实践"><a href="#4、项目实践" class="headerlink" title="4、项目实践"></a>4、项目实践</h2><p>最好的学习方法莫过于付出实践，并得到一份可观的成果，您可以跟随框架教程中的指引开始构建您的项目，并思考如何改进，重复这个过程，您将收获大量的知识！</p><ul><li><a href="https://github.com/sixone-Jiang/MachineLDigits.git">这里有一个手写数字识别的重写项目</a></li><li><a href="https://github.com/sixone-Jiang/MachineLimage">这里有一个图像分类的重写项目</a></li><li>更多的项目您可以通过搜索yolo、cnn找到</li></ul><h2 id="5、API"><a href="#5、API" class="headerlink" title="5、API"></a>5、API</h2><p>这里有一些API您可能需要经常查阅</p><ul><li><p><a href="http://www.numpy.org.cn/reference/">numpy</a></p></li><li><p><a href="matplotlib.org">matplotlib</a></p></li><li><p><a href="https://keras.io/api/preprocessing/image/">keras</a></p></li><li><p><a href="https://www.osgeo.cn/pillow/handbook/tutorial.html">PIL</a></p></li><li><p><a href="https://sklearn.apachecn.org/">sklearn</a></p></li></ul><h2 id="6、还有什么"><a href="#6、还有什么" class="headerlink" title="6、还有什么"></a>6、还有什么</h2><p>深度学习-计算机视觉，需要数据集的支持，您可能还会遇到数据集获取或处理的问题，我的建议是您可以寻找那些提供数据集的教程</p><p>否则  —– 这将成为您计算机视觉学习的最大困难</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>123</title>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/"/>
-  <updated>2021-04-20T03:19:47.479Z</updated>
+  <updated>2021-04-25T09:05:19.455Z</updated>
   <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浆果和YOLO</title>
+    <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2021/04/25/%E6%B5%86%E6%9E%9C%E5%92%8CYOLO/"/>
+    <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2021/04/25/%E6%B5%86%E6%9E%9C%E5%92%8CYOLO/</id>
+    <published>2021-04-25T08:57:12.000Z</published>
+    <updated>2021-04-25T09:05:19.455Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Django学习"><a href="#Django学习" class="headerlink" title="Django学习"></a>Django学习</h2><ul><li>当然，在此之前我复习了js和vue</li><li>你当然还没有完成这个事情 ！！！！ </li></ul><h2 id="YOLOv4-tiny-tf2"><a href="#YOLOv4-tiny-tf2" class="headerlink" title="YOLOv4-tiny-tf2"></a>YOLOv4-tiny-tf2</h2><ul><li>哈哈我调通啦</li><li>啊哈哈哈哈</li><li>开心心</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="日常了啦" scheme="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/tags/%E6%97%A5%E5%B8%B8%E4%BA%86%E5%95%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>CV.md</title>
@@ -163,7 +187,7 @@
     <published>2020-11-18T11:35:38.000Z</published>
     <updated>2020-11-25T00:50:59.662Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="接下来的，可要集中注意力了丫"><a href="#接下来的，可要集中注意力了丫" class="headerlink" title="接下来的，可要集中注意力了丫 ~"></a>接下来的，可要集中注意力了丫 ~</h2><ul><li>you just as my brother but already is my all means<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_3.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></li><li>you not only my brother but also promise me that give me all you have<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></li></ul><ul><li><p>这可都是花了人家好多好多好多(真的多得数不清了，呜呜呜心疼自己几秒钟)个不睡觉的中午以及熬夜的夜晚，还顶着我的傻女人这个发生气的气气，当着一个气鼓鼓的接受气还要又气鼓鼓又心软的给你准备的喔？</p></li><li><p><a href="https://sixone-jiang.github.io/2020/11/18/乐/">咿呀，得抓经时间带你去下一个地方了啦~</a></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="接下来的，可要集中注意力了丫"><a href="#接下来的，可要集中注意力了丫" class="headerlink" title="接下来的，可要集中注意力了丫 ~"></a>接下来的，可要集中注意力了丫 ~</h2><ul><li>you just as my brother but already is my all means<div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_3.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></li><li>you not only my brother but also promise me that give me all you have<div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_4.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></li></ul><ul><li><p>这可都是花了人家好多好多好多(真的多得数不清了，呜呜呜心疼自己几秒钟)个不睡觉的中午以及熬夜的夜晚，还顶着我的傻女人这个发生气的气气，当着一个气鼓鼓的接受气还要又气鼓鼓又心软的给你准备的喔？</p></li><li><p><a href="https://sixone-jiang.github.io/2020/11/18/乐/">咿呀，得抓经时间带你去下一个地方了啦~</a></p></li></ul>]]></content>
     
     <summary type="html">
     
@@ -187,7 +211,7 @@
     <published>2020-11-18T11:35:28.000Z</published>
     <updated>2020-11-25T00:50:56.492Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="要不要猜一猜-接下来都是什么呢丫"><a href="#要不要猜一猜-接下来都是什么呢丫" class="headerlink" title="要不要猜一猜~ 接下来都是什么呢丫 ~ ~"></a>要不要猜一猜~ 接下来都是什么呢丫 ~ ~</h2><ul><li>一定会，好眼熟的呢 ~</li><li>全屏播放会更加舒服哟 ~<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>/<br>s<br>p<br>e<br>c<br>i<br>a<br>l<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<h3 id="first"><a href="#first" class="headerlink" title="first"></a>first</h3><div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h3 id="second"><a href="#second" class="headerlink" title="second"></a>second</h3><div id="dplayer3" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer3"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_2.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h2 id="有没有回忆起都是什么时候丫？"><a href="#有没有回忆起都是什么时候丫？" class="headerlink" title="有没有回忆起都是什么时候丫？"></a>有没有回忆起都是什么时候丫？</h2><a href="https://sixone-jiang.github.io/2020/11/18/快/">咕噜咕噜的就咕噜到下一个地方去啦~</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="要不要猜一猜-接下来都是什么呢丫"><a href="#要不要猜一猜-接下来都是什么呢丫" class="headerlink" title="要不要猜一猜~ 接下来都是什么呢丫 ~ ~"></a>要不要猜一猜~ 接下来都是什么呢丫 ~ ~</h2><ul><li>一定会，好眼熟的呢 ~</li><li>全屏播放会更加舒服哟 ~<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>/<br>s<br>p<br>e<br>c<br>i<br>a<br>l<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<h3 id="first"><a href="#first" class="headerlink" title="first"></a>first</h3><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h3 id="second"><a href="#second" class="headerlink" title="second"></a>second</h3><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","loop":true,"video":{"url":"/img/birthday_2.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><h2 id="有没有回忆起都是什么时候丫？"><a href="#有没有回忆起都是什么时候丫？" class="headerlink" title="有没有回忆起都是什么时候丫？"></a>有没有回忆起都是什么时候丫？</h2><a href="https://sixone-jiang.github.io/2020/11/18/快/">咕噜咕噜的就咕噜到下一个地方去啦~</a></li></ul>]]></content>
     
     <summary type="html">
     

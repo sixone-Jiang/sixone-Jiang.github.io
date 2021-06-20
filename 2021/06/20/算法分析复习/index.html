@@ -1,0 +1,948 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="Alice">
+  <meta name="keywords" content="">
+  <title>Welcome to Alice&#39;s BLOG</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github-gist.min.css" />
+    
+  
+
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="Welcome to Alice's BLOG" type="application/atom+xml">
+</head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Alice</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('/img/default.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container page-header text-center fade-in-up">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-06-20 09:21" pubdate>
+        June 20, 2021 am
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      4.6k 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      54
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto" id="post">
+            <!-- SEO header -->
+            <h1 style="display: none"></h1>
+            
+            <div class="markdown-body" id="post-body">
+              <h2 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h2><p>算法和程序</p>
+<ul>
+<li>算法是解决问题的一种方法或一个过程</li>
+<li>算法是若干指令的有穷序列:<ul>
+<li>性质： 输入、输出、确定性、有限性</li>
+</ul>
+</li>
+<li>算法是顺序执行</li>
+<li>算法是对计算机上执行的计算过程的具体描述</li>
+<li>程序时算法用某种程序设计语言的具体实现（可不满足有限性）</li>
+<li>算法复杂性 = 算法所需要的计算机资源</li>
+<li>时间T 空间S 规模n</li>
+</ul>
+<h2 id="分治法"><a href="#分治法" class="headerlink" title="分治法"></a>分治法</h2><p>算法介绍：<br>分治法所能解决的问题一般具有以下几个特征：  </p>
+<ul>
+<li>该问题的规模 <u>缩小</u> 到一定的程度就可以 <u>容易地解决</u>；</li>
+<li>该问题可以 <u>分解</u> 为若干个规模较小的相同问题，即该问题具有最优子结构性质 </li>
+<li>利用该问题分解出的子问题的解可以 <u>合并</u> 为该问题的解；</li>
+<li>该问题所分解出的各个子问题是 <u>相互独立的</u>，即子问题之间不包含公共的子问题。 </li>
+</ul>
+<p>$$<br>T(n)=<br>\begin{cases}<br>O(1) &amp; n=1 \<br>kT(n/m)+f(n) &amp; n&gt;1<br>\end{cases}<br>\分治法时间复杂度<br>\T(n)=[n^{log_m k}]+\sum_{j=0}^{n}k^jf(n/m^j)<br>\迭代法求得方程解<br>$$</p>
+<p>k： 子问题个数</p>
+<p>n：问题规模</p>
+<p>n/m: 子问题规模</p>
+<p>f(n): 分解问题，合并问题所需的单位时间</p>
+<table>
+<thead>
+<tr>
+<th align="center">算法</th>
+<th align="center">k</th>
+<th align="center">m</th>
+<th align="center">时间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">大整数乘法</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">n^1.59</td>
+</tr>
+<tr>
+<td align="center">Strassen矩阵乘法</td>
+<td align="center">7</td>
+<td align="center">2</td>
+<td align="center">n^2.81</td>
+</tr>
+<tr>
+<td align="center">棋盘覆盖</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">n^2</td>
+</tr>
+<tr>
+<td align="center">循环赛日程安排</td>
+<td align="center">k</td>
+<td align="center">2</td>
+<td align="center">n^{log_2k}</td>
+</tr>
+</tbody></table>
+<ul>
+<li>算法的分析与实现：</li>
+</ul>
+<h3 id="1-大整数乘法"><a href="#1-大整数乘法" class="headerlink" title="1. 大整数乘法"></a>1. 大整数乘法</h3><ul>
+<li><p>使用分治法：<br>$$<br>有对于分为两段的二进制数(n位)\<br>令：<br>X=A\ 2^{n/2}+B，Y=C\ 2{n/2}+D\<br>故：<br>XY=AC<em>2^n+(AD+BC)</em>2^{n/2}+BD\<br>$$<br>发现：必有 <u>4</u>次n/2位整数乘法 ，3次2n位整数加法，2次移位算法，公用O(n)步运算。</p>
+<p>最大子问题规模n/2 -&gt; m=2, 子问题个数4次 -&gt;k=4</p>
+<p>复杂度与普通方法无差异（n^2）<br>$$<br>运用AD+BC=((A-B)(C-D)+AC+BD)\<br>改进为：<br>XY=AC<em>2^n+((A-B)(C-D)+AC+BD)</em>2^{n/2}+BD\<br>$$<br>该方法：</p>
+<p>仅仅需要3次n/2位整数乘法</p>
+<p>-&gt; m = 2 , k = 3</p>
+</li>
+</ul>
+<h3 id="2-Strassen-矩阵乘法"><a href="#2-Strassen-矩阵乘法" class="headerlink" title="2. Strassen 矩阵乘法"></a>2. Strassen 矩阵乘法</h3><ul>
+<li>使用分治法：<br>$$<br>将矩阵分解为4个大小相等的子矩阵，每个子矩阵都是n/2的方阵\<br>\left[<br>\begin{array}{c|c}<br>C_{11}&amp;C_{12} \  \hline<br>C_{21}&amp;C_{22}<br>\end{array}<h1 id="right"><a href="#right" class="headerlink" title="\right]"></a>\right]</h1>\left[<br>\begin{array}{}<br>A_{11}&amp;A_{12} \<br>A_{21}&amp;A_{22}<br>\end{array}<br>\right]<br>\left[<br>\begin{array}{}<br>B_{11}&amp;B_{12} \<br>B_{21}&amp;B_{22}<br>\end{array}<br>\right]\<br>可得：\<br>C_{11}=A_{11}B_{11}+A_{12}B_{21}\<br>C_{12}=A_{11}B_{12}+A_{12}B_{22}\<br>C_{21}=A_{21}B_{11}+A_{22}B_{21}\<br>C_{22}=A_{21}B_{12}+A_{22}B_{22}\<br>但算法复杂度依旧为8个规模为n/2的乘法-&gt;复杂度(n^4)\<br>改进方法：\<br>M_1=A_{11}(B_{12}-B_{22})\<br>M_2=(A_{11}+A_{12})B_{22}\<br>M_3=(A_{21}A_{22})B_{11}\<br>M_4=A_{22}(B_{21}-B_{11})\<br>M_5=(A_{11}+A_{22})(B_{12}+B_{22})\<br>M_6=(A_{12}-A_{22})(B_{21}+B_{22})\<br>M_7=(A_{11}-A_{21})(B_{11}+B_{12})\<br>再经过若干次加减法得出结果<br>该方法7个规模为n/2的乘法-&gt;复杂度(n^{log_27}=n^{2.81})<br>$$</li>
+</ul>
+<h3 id="3-棋盘覆盖"><a href="#3-棋盘覆盖" class="headerlink" title="3. 棋盘覆盖"></a>3. 棋盘覆盖</h3><ul>
+<li>覆盖2k×2k 个方格组成的棋盘中除特殊方格以外的所有方格，且任何2个L型骨牌不得重叠覆盖。</li>
+<li>当k&gt;0时，将2k×2k棋盘分割为 4 个2k-1×2k-1 子棋盘。 </li>
+<li>特殊方格必位于4个较小子棋盘之一中，其余3个子棋盘中无特殊方格。</li>
+<li>为了将这3个无特殊方格的子棋盘转化为特殊棋盘，可以用一个L型骨牌覆盖这3个较小棋盘的会合处，从而将原问题转化为4个较小规模的棋盘覆盖问题。</li>
+<li>递归地使用这种分割，直至棋盘简化为棋盘1×1。</li>
+</ul>
+<pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">chessBoard</span><span class="hljs-params">(<span class="hljs-keyword">int</span> tr, <span class="hljs-keyword">int</span> tc, <span class="hljs-keyword">int</span> dr, <span class="hljs-keyword">int</span> dc, <span class="hljs-keyword">int</span> size)</span></span>
+<span class="hljs-function"></span>&#123;
+    <span class="hljs-comment">// tr 棋盘左上角， dr 特殊方格</span>
+    <span class="hljs-keyword">if</span> (size == <span class="hljs-number">1</span>) <span class="hljs-keyword">return</span>;
+    <span class="hljs-keyword">int</span> t = tile++,  <span class="hljs-comment">// L型骨牌号</span>
+    s = size/<span class="hljs-number">2</span>;  <span class="hljs-comment">// 子棋盘大小</span>
+    <span class="hljs-comment">// 覆盖左上角子棋盘</span>
+    <span class="hljs-keyword">if</span> (dr &lt; tr + s &amp;&amp; dc &lt; tc + s) <span class="hljs-comment">// 特殊方格在此棋盘中</span>
+        chessBoard(tr, tc, dr, dc, s);
+    <span class="hljs-keyword">else</span> &#123; <span class="hljs-comment">// 此棋盘中无特殊方格</span>
+        board[tr + s - <span class="hljs-number">1</span>][tc + s - <span class="hljs-number">1</span>] = t; <span class="hljs-comment">// 用 t 号骨牌覆盖右下角</span>
+        chessBoard(tr, tc, tr+s<span class="hljs-number">-1</span>, tc+s<span class="hljs-number">-1</span>, s);
+    &#125; <span class="hljs-comment">// 覆盖其余方格</span>
+    <span class="hljs-comment">// 覆盖右上角子棋盘</span>
+    <span class="hljs-comment">// 覆盖左下角子棋盘</span>
+    <span class="hljs-comment">// 覆盖右下角子棋盘</span>
+&#125;
+</code></pre>
+
+
+
+<ul>
+<li>问题规模n/2, 4 次 -&gt; O(n^2)</li>
+</ul>
+<h3 id="4-循环赛日程"><a href="#4-循环赛日程" class="headerlink" title="4.循环赛日程"></a>4.循环赛日程</h3><ul>
+<li><p>n = 2^k 个运动员进行网球循环赛，设计一个日程表：</p>
+<ul>
+<li>每个选手间相互比一次</li>
+<li>每个选手一天只能比赛依次</li>
+<li>n-1天</li>
+</ul>
+</li>
+<li><p>按分治策略，将所有的选手分为两半</p>
+</li>
+<li><p>n个选手的比赛日程表就可以通过为n/2个选手设计的比赛日程表来决定。</p>
+</li>
+<li><p>递归地用对选手进行分割，直到只剩下2个选手时，让这2个选手进行比赛。</p>
+</li>
+</ul>
+<pre><code class="hljs cpp"><span class="hljs-function">Void <span class="hljs-title">Table</span><span class="hljs-params">(<span class="hljs-keyword">int</span> a[][],<span class="hljs-keyword">int</span> begin,<span class="hljs-keyword">int</span> end)</span></span>
+<span class="hljs-function"></span>&#123;    
+    <span class="hljs-keyword">int</span> n=end-begin;<span class="hljs-comment">//待安排比赛的队数</span>
+    <span class="hljs-keyword">if</span>(n&lt;=<span class="hljs-number">2</span>)  <span class="hljs-comment">//安排两队比赛;</span>
+    <span class="hljs-keyword">else</span> &#123;    
+        Table(a，begin，begin＋n/<span class="hljs-number">2</span>); 
+        Table(a,begin+n/<span class="hljs-number">2</span>＋<span class="hljs-number">1</span>，end);
+        Merge(a);        
+    &#125;
+&#125;</code></pre>
+
+<ul>
+<li>复杂度k = k, m = 2</li>
+</ul>
+<h2 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h2><p>算法思想：</p>
+<ul>
+<li>基本思想将待求解问题分解成若干个子问题。 </li>
+<li>若子问题重复，保存已解决的子问题的答案，而在需要时再找出已求得的答案，就可以避免大量重复计算，从而得到多项式时间算法。</li>
+</ul>
+<p>基本要素：</p>
+<ul>
+<li>最优子结构</li>
+<li>重叠子问题</li>
+</ul>
+<p>动态规划基本步骤：</p>
+<ul>
+<li>分析最优值的性质，得到 <u>最优值的递归定义</u></li>
+<li><u>自底向上</u>地计算 <u>子问题的最优值</u>，逐步得到原问题的最优值，并记录计算过程</li>
+<li>由最优值的计算过程出 <u>构造</u> 原问题的最优解</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">算法</th>
+<th align="center">时间复杂度</th>
+<th align="center">空间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">矩阵连乘</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">最长公共子序列</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">流水作业调度</td>
+<td align="center">nlogn</td>
+<td align="center">n</td>
+</tr>
+<tr>
+<td align="center">0-1背包问题</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">电路布线问题</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<ul>
+<li>算法问题与分析</li>
+</ul>
+<h3 id="1-矩阵连乘"><a href="#1-矩阵连乘" class="headerlink" title="1. 矩阵连乘"></a>1. 矩阵连乘</h3><p>$$<br>将A_i<em>A_{i+1}…..</em>A_j记作A_{i,j}\<br>设最优解的最后一步为：A_{1,k}<em>A_{k+1,n}\<br>最优结构：A_{1,k}、A_{k+1,n}应当分别为该子式的最优解\<br>——————————\<br>建立递归关系：设计算A[i:j] ， 1&lt;=i&lt;=j，所需最小乘数m[i,j]\<br>问题最优值：m[1,n]\<br>m[i,j]=<br>\begin{cases}<br>0 &amp; i=j\<br>\underset{i&lt;=k&lt;j}\min{m[i,k]+m[k+1,j]+p_{i-1}p_kp_j} &amp; i&lt;j<br>\end{cases}\<br>A_i的维数为p_{i-1}</em>p_i\<br>k为最佳顺序中两个子序列的中间断开点<br>$$</p>
+<h3 id="2-最长公共子序列"><a href="#2-最长公共子序列" class="headerlink" title="2. 最长公共子序列"></a>2. 最长公共子序列</h3><p>$$<br>c[i][j]=<br>\begin{cases}<br>0 &amp; i=0,j=0\<br>c[i-1][j-1]+1 &amp; i,j&gt;0;x_i=y_j\<br>max{c[i][j-1],c[i-1][j] } &amp; i,j&gt;0;x_i ≠ y_j<br>\end{cases}\<br>c[i][j]记录两序列的最长公共子序列长度<br>$$</p>
+<h3 id="3-流水作业调度"><a href="#3-流水作业调度" class="headerlink" title="3. 流水作业调度"></a>3. 流水作业调度</h3><p>n个作业{1，2，…，n}要在由2台机器M1和M2组成的流水线上完成加工。每个作业加工的顺序都是先在M1上加工，然后在M2上加工。M1和M2加工作业i所需的时间分别为ai和bi。</p>
+<p>流水作业调度问题要求确定这n个作业的最优加工顺序，使得从第一个作业在机器M1上开始加工，到最后一个作业在机器M2上加工完成所需的时间最少<br>$$<br>Johnson法则：min{b_{Π(i)},a_{Π(j)}}&gt;=min{b_{Π(j)},a_{Π(i)}}<br>$$<br><u>所有</u> 满足Johnson法则的调度 均为 <u>最优调度</u></p>
+<p>算法：<br>(1)令N_1={i | a_i &lt; b_i}, N_2={i|a_i&gt;=b_i}</p>
+<p>(2)令N_1中作业依据a_i非减序排序，N_2中作业按b_i非增序列排序</p>
+<p>(3)N_1 、 N_2构成满足Johnson法则最优调度</p>
+<p>算法复杂度：</p>
+<p>T:O(nlogn) </p>
+<p>S:O(n)</p>
+<h3 id="4-0-1背包"><a href="#4-0-1背包" class="headerlink" title="4. 0-1背包"></a>4. 0-1背包</h3><ul>
+<li>问题描述<ul>
+<li>给定n种物品和一背包。</li>
+<li>物品i的重量是wi，</li>
+<li>其价值为vi，</li>
+<li>背包的容量为C。</li>
+<li>问应如何选择装入背包的物品，使得装入背包中物品的 <u>总价值最大</u>?</li>
+</ul>
+</li>
+</ul>
+<p>$$<br>m[i,j]=<br>\begin{cases}<br>max{m(i+1,j),m(i+1,j-w_i)+v_i} &amp; j&gt;w_i\<br>m(i+1,j) &amp; 0&lt;=j&lt;w_i<br>\end{cases}\<br>j:背包容量\<br>i:物品\<br>m(i,j)是背包容量为j，可选择物品为i，i+1，…，n时0-1背包问题的最优值。<br>$$</p>
+<h3 id="5-电路布线问题"><a href="#5-电路布线问题" class="headerlink" title="5.电路布线问题"></a>5.电路布线问题</h3><ul>
+<li><p>问题描述</p>
+</li>
+<li><p>在一块电路板的上、下两端分别有n个接线柱。根据电路设计，要求用导线(i,π(i)) 将上端接线柱i与下端接线柱π(i)相连。</p>
+</li>
+<li><p>电路布线问题要确定将哪些连线安排在一层上，使得该层上有尽可能多的连线。即求Nets = ｛i，π(i)，1 ≤ i ≤ n｝的最大不相交子集。</p>
+</li>
+</ul>
+<p>$$<br>当i = 1,\<br>Size(1,j)=<br>\begin{cases}<br>0 &amp; j &lt; Π(1)\<br>1 &amp; j &gt;= Π(1)<br>\end{cases}\<br>当i &gt; 1,\<br>Size(i,j)=<br>\begin{cases}<br>Size(i-1,j) &amp; j &lt; Π(i)\<br>max{Size(i-1,j),Size(i-1,Π(i)-1)} &amp; j &gt;= Π(i)<br>\end{cases}\<br>Size(n,n):最优值<br>$$</p>
+<h2 id="贪心算法"><a href="#贪心算法" class="headerlink" title="贪心算法"></a>贪心算法</h2><p>算法核心：局部最优解</p>
+<ul>
+<li>最优子结构</li>
+<li>贪心选择</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">算法</th>
+<th align="center">算法时间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">最优装载</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">（0-1）背包装载</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">活动安排</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">多机调度</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<ul>
+<li>问题分析</li>
+</ul>
+<h3 id="1-最优装载"><a href="#1-最优装载" class="headerlink" title="1. 最优装载"></a>1. 最优装载</h3><ul>
+<li><p>问题分析</p>
+</li>
+<li><p>有一批集装箱要装上一艘载重量为c的轮船。</p>
+</li>
+<li><p>其中集装箱i的重量为Wi。</p>
+</li>
+<li><p>最优装载问题要求确定在装载体积不受限制的情况下，</p>
+</li>
+<li><p>将尽可能多的集装箱装上轮船。</p>
+<ul>
+<li>问题实质,0-1背包，价值vi皆为1,但此题用贪心法求解</li>
+</ul>
+</li>
+<li><p>算法：</p>
+<ul>
+<li>首先计算每种物品单位重量的价值Vi/Wi，然后，依贪心选择策略，将尽可能多的单位重量价值最高的物品装入背包。依此策略直到背包装满为止。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-活动安排"><a href="#2-活动安排" class="headerlink" title="2. 活动安排"></a>2. 活动安排</h3><ul>
+<li><p>安排最大相容量</p>
+</li>
+<li><p>算法：</p>
+<ul>
+<li>将所有活动按结束时间排序，得到活动集合E={e1,e2…e_n}；</li>
+<li>先将e1选入结果集合A中，即A={e1}；</li>
+<li>依次扫描每一个活动e_i：<ul>
+<li>如果e_i的 <u>开始</u> 时间 <u>晚于</u> 最后一个选入A的活动e_j的 <u>结束</u> 时间，则将e_i <u>选入</u> A中，否则放弃e_i；</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-多机调度"><a href="#3-多机调度" class="headerlink" title="3. 多机调度"></a>3. 多机调度</h3><ul>
+<li>要求给出一种作业调度方案，</li>
+<li>使所给的n个作业在尽可能短的时间内由m台机器加工处理完成。</li>
+<li>算法：<ul>
+<li>采用最长处理时间作业优先的贪心选择策略可以设计出解多机调度问题的较好的近似算法。</li>
+<li>当n&lt;=m时，只要将机器i的[0, ti]时间区间分配给作业i即可，算法只需要<strong>O(1)</strong>时间。</li>
+<li>当n&gt;m时，首先将n个作业依其 <u>所需的处理时间</u> <u>从大</u> 到小排序。然后依此顺序将作业分配给空闲的处理机。算法所需的计算时间为O(nlogn)。</li>
+</ul>
+</li>
+</ul>
+<h2 id="回溯法"><a href="#回溯法" class="headerlink" title="回溯法"></a>回溯法</h2><p>我简称为DFS</p>
+<p>算法核心：</p>
+<ul>
+<li>针对问题，定义解空间</li>
+<li>确定易于搜索的解空间结构</li>
+<li>以深度优先方式搜索解空间，并在搜索过程中用剪枝函数避免无效搜索</li>
+</ul>
+<p>剪枝函数：</p>
+<ul>
+<li><p>用约束函数在扩展节点处剪去不满足约束的子树。</p>
+</li>
+<li><p>用限界函数剪去得不到最优解的子树</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">算法</th>
+<th align="center">时间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">最优装载问题*</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">批处理作业调度</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">n后</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">图m着色</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">旅行售货员</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<ul>
+<li>算法问题分析</li>
+</ul>
+<h3 id="1-装载问题"><a href="#1-装载问题" class="headerlink" title="1. 装载问题"></a>1. 装载问题</h3><ul>
+<li>有一批共n个集装箱</li>
+<li>要装上2艘载重量分别为c1和c2的轮船，</li>
+<li>其中集装箱i的重量为wi，且</li>
+</ul>
+<p>$$<br>\sum_{i=1}^{n}w_i&lt;=c_1+c_2<br>$$</p>
+<ul>
+<li><p>首先将第一艘轮船尽可能装满；</p>
+</li>
+<li><p>将剩余的集装箱装上第二艘轮船。</p>
+</li>
+<li><p>算法：(2^n)</p>
+<ul>
+<li>约束函数（选择装入当前元素）：</li>
+</ul>
+<p>$$<br>\sum_{i=1}^{n}w_ix_i&lt;=c_1<br>$$</p>
+<pre><code>* 限界函数（不选择装入当前元素）：cw +r &lt;= bestw
+* Betstw为当前已经计算出的最优装载重量。
+* Cw是装载到目前为止的总量。
+* r为剩余集装箱的重量。</code></pre></li>
+<li><p>执行过程<br>1、从树根开始，计算当前载重量；<br>2、判断其左子树（装入）是否满足约束条件，满足则继续深度优先搜索左子树，重复2；<br>3、判断其右子树是否满足限界条件（是否可能含有最优解），满足则深度优先搜索右子树，重复2；<br>4、到达叶子，则找到一个解；搜索完解空间树，得到最优解。</p>
+</li>
+</ul>
+<h3 id="2-批处理作业调度"><a href="#2-批处理作业调度" class="headerlink" title="2. 批处理作业调度"></a>2. 批处理作业调度</h3><ul>
+<li>算法描述：<ul>
+<li>给定n个作业的集合{1,2,…n}。</li>
+<li>每个作业必须先由机器1处理，然后由机器2处理。</li>
+<li>作业i需要机器j的处理时间为tji。</li>
+<li>对于一个确定的作业调度，设Fji是作业i在机器j上完成处理的时间。</li>
+<li>所有作业在机器2上完成处理的时间和称为该作业调度的完成时间和。</li>
+</ul>
+</li>
+<li>解释：<ul>
+<li>流水作业调度的最终目标是要求完成所有任务的时间最短，所以把最后一个任务的完成时间作为标准；</li>
+<li>而批处理作业调度的目的是要让每一个作业都尽快得到处理，所以要把每个作业的完成时间之和作为标准。</li>
+</ul>
+</li>
+<li>算法:O（n!）<ul>
+<li>初始化（起始状态）；<br>从第一个作业开始<pre><code>找待安排的作业
+如果当前结果比最小时间和小
+    继续试探下一个作业安排
+    如果已经是全部任务安排完成
+          得到一个解
+          撤掉该子，继续寻找下一个可能解
+    否则（未到最后）
+          准备处理下一个作业
+否则
+     回溯到上一个顶点，并重新安排任务</code></pre></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-n皇后问题"><a href="#3-n皇后问题" class="headerlink" title="3. n皇后问题"></a>3. n皇后问题</h3><ul>
+<li><p>算法：</p>
+<p>1、从空棋盘起，逐行放置棋子。</p>
+<p>2、在一个布局中放下一个棋子，即推演到另一个布局。</p>
+<p>3、如果某一行中没有可合法放置棋子的位置，则回溯到上一行，重新布放上一行的棋子。</p>
+</li>
+</ul>
+<h3 id="4-图的m着色"><a href="#4-图的m着色" class="headerlink" title="4. 图的m着色"></a>4. 图的m着色</h3><ul>
+<li>问题描述：<ul>
+<li>给定无向连通图G和m种不同的颜色。</li>
+<li>用这些颜色为图G的各顶点着色，每个顶点着一种颜色。</li>
+<li>是否有一种着色法使G中每条边的2个顶点着不同颜色?</li>
+</ul>
+</li>
+<li>算法 O（nm^n）<br>初始化（起始状态）；<br>从第一个顶点开始<pre><code>由当前顶点安排下一个顶点可设置的颜色
+如果找到了可以设置的颜色
+    置顶点颜色
+    如果已经是最后一个顶点
+          得到一个解
+          回溯，继续寻找下一个解
+    否则（未到最后）
+          准备处理下一个顶点
+否则（没有找到可以设置的颜色）
+     回溯到上一个顶点，并去除该顶点的颜色</code></pre></li>
+</ul>
+<h3 id="5-旅行售货员"><a href="#5-旅行售货员" class="headerlink" title="5. 旅行售货员"></a>5. 旅行售货员</h3><ul>
+<li><p>问题描述</p>
+<ul>
+<li>有一个售货员要开车到N个指定的城市去推销货物，</li>
+<li>他必须经过全部N个城市并且每个城市仅经过一次。</li>
+<li>现在他有一张n个城市的地图并知道各个城市之间的公路里程wi，</li>
+<li>试问他应该如何选取最短的行程从家里出发对N个城市旅行一遍并再回到家中</li>
+</ul>
+</li>
+<li><p>算法：O（n!）</p>
+<p>初始化（起始状态）；<br>从图的第一个顶点开始</p>
+<pre><code>由当前顶点找下一个邻接的顶点
+如果比最小代价小
+    放当前顶点城市到最短路径中
+    如果已经是最后一个顶点
+          得到一个解
+          撤掉该子，继续寻找下一个解
+    否则（未到最后）
+          准备处理下一个邻接顶点
+否则
+     回溯到上一个顶点，并去除该顶点的分支</code></pre></li>
+</ul>
+<h2 id="分支限界法"><a href="#分支限界法" class="headerlink" title="分支限界法"></a>分支限界法</h2><p>我简称为BFS（或最小耗费优先）</p>
+<p>求解目标：</p>
+<ul>
+<li>回溯法是找出解空间树种满足约束条件的所有解</li>
+<li>分支限界法是找出满足约束条件的一个解，或者最优解</li>
+</ul>
+<p>基本思想：</p>
+<ul>
+<li>在扩展节点处，先生成其所有的儿子节点（分支），然后再从当前节点的活结点表中选择下一个扩展节点</li>
+<li>扩展节点选择：在每一个活结点出，计算一个函数优先值（优先级），并根据这些已计算出的函数值，从当前活结点表中选择一个最有利的节点作为扩展节点</li>
+</ul>
+<p>分类：</p>
+<ul>
+<li>队列式（BFS）</li>
+<li>优先队列式（通过函数计算值，丢到priority_queue中）</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">算法</th>
+<th align="center">时间复杂度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">0-1背包</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">装载问题</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">旅行售货员</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<ul>
+<li>算法描述</li>
+</ul>
+<h3 id="1-0-1背包"><a href="#1-0-1背包" class="headerlink" title="1. 0-1背包"></a>1. 0-1背包</h3><ul>
+<li>算法：<ul>
+<li>首先，要对输入数据进行预处理，将各物品依其单位重量价值从大到小进行排列。</li>
+<li>在使用优先队列分支限界法中，节点的优先级由<ul>
+<li>已装袋的物品价值加上</li>
+<li>剩下的 最大单位重量价值 的物品 装满剩余容量的价值和</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>初始化，将物品按照单位价值的从大到小顺序排列；<br>从第一个物品开始<br>       左儿子加入后可否满足控制约束<br>             将顶点i加入到最大优先队列中<br>             修改最大价值,修改上界条件<br>       否则检查右儿子可否满足条件<br>             将右儿子加入优先队列<br>             修改上界条件<br>取下一扩展结点<br>当队列为空时<br>       输出当前记录的路径</p>
+<h3 id="2-装载问题"><a href="#2-装载问题" class="headerlink" title="2. 装载问题"></a>2. 装载问题</h3><ul>
+<li>算法:</li>
+</ul>
+<p>队列式分支限界法<br>     算法描述：<br>        未搜索到树的结束<br>        检查左儿子结点是否满足约束条件<br>            左儿子加入扩展队列<br>            根据当前修改当前最优解（可装载的最大重量）<br>            右儿子结点总是可行的，加入队列<br>        取下一扩展结点<br>             判断是否同层结点尾部（－1）<br>                 如果队空返回最优解（可装载的最大重量）<br>                  加入同层结点尾部标志<br>                 取下一扩展结点<br>                 进入下一层</p>
+<h3 id="3-旅行售货员"><a href="#3-旅行售货员" class="headerlink" title="3. 旅行售货员"></a>3. 旅行售货员</h3><img src="C:\Users\25357\AppData\Roaming\Typora\typora-user-images\image-20210619172652683.png" srcset="/img/loading.gif" alt="image-202106191726 52683" style="zoom:67%;" />
+
+
+
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/06/07/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%8D%E4%B9%A0/">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/main.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '#post-body',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      searchFunc(path, 'local-search-input', 'local-search-result');
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":145,"height":315},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
+</html>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/"/>
-  <updated>2021-06-19T10:09:03.459Z</updated>
+  <updated>2021-09-26T08:16:15.569Z</updated>
   <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>lifelongtime</title>
+    <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2021/09/26/lifelongtime/"/>
+    <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2021/09/26/lifelongtime/</id>
+    <published>2021-09-26T08:15:50.000Z</published>
+    <updated>2021-09-26T08:16:15.569Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>long time no see</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -461,30 +483,6 @@
     
     
       <category term="my_will" scheme="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/tags/my-will/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>蓝桥杯</title>
-    <link href="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/06/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
-    <id>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/06/%E8%93%9D%E6%A1%A5%E6%9D%AF/</id>
-    <published>2020-11-06T12:41:27.000Z</published>
-    <updated>2020-11-06T12:51:51.206Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>应该会是我最后一次涉足算法竞赛吧，预祝我获得一个良好的成绩哟~</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-      <category term="Algorithm" scheme="https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/tags/Algorithm/"/>
     
   </entry>
   

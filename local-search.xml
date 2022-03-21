@@ -4,11 +4,30 @@
   
   
   <entry>
+    <title>在Jupyter中使用conda环境</title>
+    <link href="/2022/03/21/%E5%9C%A8Jupyter%E4%B8%AD%E4%BD%BF%E7%94%A8conda%E7%8E%AF%E5%A2%83/"/>
+    <url>/2022/03/21/%E5%9C%A8Jupyter%E4%B8%AD%E4%BD%BF%E7%94%A8conda%E7%8E%AF%E5%A2%83/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="jupyter中添加conda环境"><a href="#jupyter中添加conda环境" class="headerlink" title="jupyter中添加conda环境"></a>jupyter中添加conda环境</h2><p>安装完Anaconda利用conda创建了虚拟环境，但是启动jupyter notebook之后却找不到虚拟环境。</p><p>实际上是由于在虚拟环境下缺少kernel.json文件，解决方法如下：</p><p>首先安装ipykernel：conda install ipykernel</p><p>在虚拟环境下创建kernel文件：conda install -n 环境名称 ipykernel</p><p>激活conda环境： source activate 环境名称</p><p>将环境写入notebook的kernel中</p><p>python -m ipykernel install –user –name 环境名称 –display-name “Python (环境名称)”</p><p>打开notebook服务器：jupyter notebook</p><p>浏览器打开对应地址，新建python，就会有对应的环境提示了</p><p>如果经常需要用jupyter notebook，那么最好在创建虚拟环境的时候便安装好ipykernel，</p><p>命令：conda create -n 环境名称 python=3.7 ipykernel</p><p>删除kernel环境：</p><p>jupyter kernelspec remove 环境名称</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>tips</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>未来的事.md</title>
     <link href="/2022/03/20/%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%BA%8B/"/>
     <url>/2022/03/20/%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%BA%8B/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><p>嘛嘛，未来有好多好多想做的事情呢</p><p>可是，要现在做的话，还是太早了些，太耗费时间了些</p><p>喜欢的，感兴趣的，感动的，故事，游戏，书籍，视频</p><p>不去玩、看的话，心里总会痒痒的</p><p>可心里有着寄托呀， 有着未来和所爱的人憧憬的模样，大概就是这样子</p><p>还有没完成的事情，以在现在的年纪</p><p>所以呀，把这些东西都记录下来，记录本身就是意义呀</p><p>就算将来也过时或用不上了，可总归为未来的我留下了这些曾经的记忆嘛</p><p>所以决定写这么一个东西，会保持更新，大概分为游戏、小说、番剧/电影，小故事，大概这样几个模块啦</p><ul><li><p>ps：如非特别链接，考虑到未来不存的可能性很大，因此不予给出</p><h2 id="1-游戏"><a href="#1-游戏" class="headerlink" title="1. 游戏"></a>1. 游戏</h2></li><li><p>如果可以早一点回家</p><ul><li>时间戳 ：2021-12-17</li><li>简介： 是个有些悲伤的故事，一定要多花时间陪伴自己最爱的人呐，不然，心中一定会有所缺憾呢…….</li></ul></li><li><p>原神</p></li><li><p>勇者斗恶龙：创世小玩家2</p></li><li><p>仙剑奇侠传7</p></li><li><p>英雄联盟</p></li><li><p>暖雪</p></li><li><p>双人成行</p></li><li><p>GTA5</p><h2 id="2-小说"><a href="#2-小说" class="headerlink" title="2. 小说"></a>2. 小说</h2></li><li><p>咕噜咕噜暂时还没有喔</p></li></ul><h2 id="3-番剧电影"><a href="#3-番剧电影" class="headerlink" title="3. 番剧电影"></a>3. 番剧电影</h2><ul><li>剑网三*侠肝义胆沈剑心</li><li>风灵玉秀</li><li>荧石眼之歌-vivy</li><li>美丽人生</li><li>时光代理人</li><li>仙女教母自救行动</li><li>我被逐出队伍之后过上慢生活</li><li>游戏人生</li></ul><h2 id="4-小故事"><a href="#4-小故事" class="headerlink" title="4. 小故事"></a>4. 小故事</h2><ul><li>B站拜年祭* 再一次， 猫探长弗雷，铁心博弈，夜的第七章，火锅城历险记</li></ul><h2 id="5-MV"><a href="#5-MV" class="headerlink" title="5. MV"></a>5. MV</h2><ul><li>万类霜天</li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><p>嘛嘛，未来有好多好多想做的事情呢</p><p>可是，要现在做的话，还是太早了些，太耗费时间了些</p><p>喜欢的，感兴趣的，感动的，故事，游戏，书籍，视频</p><p>不去玩、看的话，心里总会痒痒的</p><p>可心里有着寄托呀， 有着未来和所爱的人憧憬的模样，大概就是这样子</p><p>还有没完成的事情，以在现在的年纪</p><p>所以呀，把这些东西都记录下来，记录本身就是意义呀</p><p>就算将来也过时或用不上了，可总归为未来的我留下了这些曾经的记忆嘛</p><p>所以决定写这么一个东西，会保持更新，大概分为游戏、小说、番剧/电影，小故事，大概这样几个模块啦</p><ul><li>ps：如非特别链接，考虑到未来不存的可能性很大，因此不予给出</li></ul><h2 id="1-游戏"><a href="#1-游戏" class="headerlink" title="1. 游戏"></a>1. 游戏</h2><ul><li><p>如果可以早一点回家</p><ul><li>时间戳 ：2021-12-17</li><li>简介： 是个有些悲伤的故事，一定要多花时间陪伴自己最爱的人呐，不然，心中一定会有所缺憾呢…….</li></ul></li><li><p>原神</p></li><li><p>勇者斗恶龙：创世小玩家2</p></li><li><p>仙剑奇侠传7</p></li><li><p>英雄联盟</p></li><li><p>暖雪</p></li><li><p>双人成行</p></li><li><p>GTA5</p></li></ul><h2 id="2-小说"><a href="#2-小说" class="headerlink" title="2. 小说"></a>2. 小说</h2><ul><li>咕噜咕噜暂时还没有喔</li></ul><h2 id="3-番剧电影"><a href="#3-番剧电影" class="headerlink" title="3. 番剧电影"></a>3. 番剧电影</h2><ul><li>剑网三*侠肝义胆沈剑心</li><li>风灵玉秀</li><li>荧石眼之歌-vivy</li><li>美丽人生</li><li>时光代理人</li><li>仙女教母自救行动</li><li>我被逐出队伍之后过上慢生活</li><li>游戏人生</li><li>你好，世界</li></ul><h2 id="4-小故事"><a href="#4-小故事" class="headerlink" title="4. 小故事"></a>4. 小故事</h2><ul><li>B站拜年祭* 再一次， 猫探长弗雷，铁心博弈，夜的第七章，火锅城历险记</li></ul><h2 id="5-MV"><a href="#5-MV" class="headerlink" title="5. MV"></a>5. MV</h2><ul><li>万类霜天</li></ul>]]></content>
     
     
     

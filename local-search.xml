@@ -4,6 +4,44 @@
   
   
   <entry>
+    <title>fuck流氓软件</title>
+    <link href="/2022/03/30/fuck%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/"/>
+    <url>/2022/03/30/fuck%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="干翻天杀的的流氓软件"><a href="#干翻天杀的的流氓软件" class="headerlink" title="干翻天杀的的流氓软件"></a>干翻天杀的的流氓软件</h2><ul><li>您的绝大多数软件卸载遗留问题可以通过使用IObit Uninstaller解决，后续我将附上软件链接，也可以通过在yishimei网络中找到该软件，安全无毒无残留，请放心。</li><li>针对使用上述方法无法解决的软件卸载问题<ul><li>再次安装流氓软件，请务必保持与上次安装相同的位置，以便覆盖掉您卸载不掉的文件</li><li>在任务管理器中确保该程序的守护进程没有运行，如果正在运行，干掉他</li><li>使用流氓软件自带的Uninstall程序，注意观察，不要再被骗了，狠心拒绝，不希望保留用户数据</li><li>再使用iobit删除一遍您想删除的遗留程序（这样会让您的注册表更干净）</li><li>最后，绝大多数流氓程序已经没有了，可总有那么几个顽固分子，他删了自己还能回来！！！</li><li>尝试修改提示您权限不足的文件的后缀名，如.sys结尾或含有该格式的文件，将其修改后缀为.txt(大部分情况下，重启电脑，您到这里都是可以删除的)</li><li>如果干不掉，没关系，咱们上360强力删除，iobit能帮您完美的删除360.</li></ul></li><li>祝您拥有一套纯净的计算机环境！！！！！！！！</li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>tips</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Jupyter导出pdf</title>
+    <link href="/2022/03/23/Jupyter%E5%AF%BC%E5%87%BApdf/"/>
+    <url>/2022/03/23/Jupyter%E5%AF%BC%E5%87%BApdf/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>万恶的实验</p><p>你是不是还苦恼在写完实验代码却还要写实验报告！</p><p>没关系，只需要用jupyter导出为html然和在浏览器中导出为pdf！</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>bugs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>在Jupyter中使用conda环境</title>
     <link href="/2022/03/21/%E5%9C%A8Jupyter%E4%B8%AD%E4%BD%BF%E7%94%A8conda%E7%8E%AF%E5%A2%83/"/>
     <url>/2022/03/21/%E5%9C%A8Jupyter%E4%B8%AD%E4%BD%BF%E7%94%A8conda%E7%8E%AF%E5%A2%83/</url>
@@ -15,6 +53,44 @@
     <tags>
       
       <tag>tips</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>docker on win10</title>
+    <link href="/2022/03/20/docker-on-win10/"/>
+    <url>/2022/03/20/docker-on-win10/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Windows-10-Docker-Invalid-Operation-Exception-Failed-to-set-version-to-docker-desktop"><a href="#Windows-10-Docker-Invalid-Operation-Exception-Failed-to-set-version-to-docker-desktop" class="headerlink" title="Windows 10 Docker Invalid Operation Exception Failed to set version to docker-desktop"></a>Windows 10 Docker Invalid Operation Exception Failed to set version to docker-desktop</h2><p>this bug like:</p><img src="https://raw.githubusercontent.com/sixone-Jiang/Picgo/main/image-20220320164556943.png" alt="image-20220320164556943" style="zoom:50%;" /><p>cmd/shell下执行</p><p>netsh winsock reset</p><p>然后重启docker就好了（临时方案，管不了多久，基本上重启电脑就不行了）</p><p><strong>下面是永久方案</strong></p><ol><li><p>下载NoLsp(需要使用VPN等)</p><p><a href="http://www.proxifier.com/tmp/Test20200228/NoLsp.exe">http://www.proxifier.com/tmp/Test20200228/NoLsp.exe</a></p><p>或者百度网盘</p><p>链接：<a href="https://pan.baidu.com/s/14nxzeKvpjf5zSL8Mcu4r8g">https://pan.baidu.com/s/14nxzeKvpjf5zSL8Mcu4r8g</a><br>提取码：iq5s </p></li><li><p>下载的文件建议放在C:\Windows\System32下，也可以随便放，位置你知道就行，如果不是NoLsp.exe建议重命名一下，当前也可以不重命名，使用方便就行了</p><p>cmd下执行（管理员模式）</p><p>NoLsp.exe c:\windows\system32\wsl.exe</p><p>如果不对，肯定是路径不对。</p></li><li><p>启动 wsl</p><p>执行wsl</p></li><li><p>重启Restart Docker Desktop</p></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>bugs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>服务器使用Tips</title>
+    <link href="/2022/03/20/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8Tips/"/>
+    <url>/2022/03/20/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8Tips/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li><p>如何ssh免密码访问</p><ul><li>在客户端使用ssh-keygen 生成</li></ul><img src="/img/image-20220319213718041.png" alt="image-20220319213718041" style="zoom:50%;" /><ul><li>如何实现多个设备对同一服务器访问？<ul><li>服务器端authoried_keys 文件里直接换行，添加客户端生成的public_key</li></ul></li></ul></li><li><p>关于VScode-Remote SSH</p><ul><li><p>按照格式</p><pre><code class="hljs config">Host xxx                                                    &quot;主机名字-Alice&quot;HostName x.x.x.x                                          &quot;ip-127.0.0.1&quot;User xxxx                                                    &quot;登录用户名-root&quot;Port xx                                                    &quot;连接端口-22&quot;IdentityFile &quot;xxx\.ssh\id_rsa&quot;                            &quot;ssh私钥文件位置&quot;</code></pre></li></ul></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>bugs</tag>
       
     </tags>
     

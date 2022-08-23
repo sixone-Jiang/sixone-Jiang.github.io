@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Alice">
   <meta name="keywords" content="">
-  <title>docker on win10 - Welcome to Alice&#39;s BLOG</title>
+  <title>Welcome to Alice&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -166,8 +166,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-03-20 16:41" pubdate>
-        March 20, 2022 pm
+      <time datetime="2022-06-11 21:04" pubdate>
+        June 11, 2022 pm
       </time>
     </span>
   
@@ -178,7 +178,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      186 字
+      69 字
     </span>
   
 
@@ -188,7 +188,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2
+      1
        分钟
     </span>
   
@@ -226,52 +226,29 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">docker on win10</h1>
+            <h1 style="display: none"></h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：5 months ago
+                  本文最后更新于：2 months ago
                 
               </p>
             
             <div class="markdown-body" id="post-body">
-              <h2 id="Windows-10-Docker-Invalid-Operation-Exception-Failed-to-set-version-to-docker-desktop"><a href="#Windows-10-Docker-Invalid-Operation-Exception-Failed-to-set-version-to-docker-desktop" class="headerlink" title="Windows 10 Docker Invalid Operation Exception Failed to set version to docker-desktop"></a>Windows 10 Docker Invalid Operation Exception Failed to set version to docker-desktop</h2><p>this bug like:</p>
-<img src="https://raw.githubusercontent.com/sixone-Jiang/Picgo/main/image-20220320164556943.png" srcset="/img/loading.gif" alt="image-20220320164556943" style="zoom:50%;" />
+              <p>layout: posts<br>title: Jupyter寻找conda环境<br>date: 2022-03-23 17:18:00<br>tags: bugs</p>
+<p>Q:</p>
+<p>安装好<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=jupyter&spm=1001.2101.3001.7020">jupyter</a> notebook</p>
+<p>进入后发现只有系统的python kernel</p>
+<p>进入[anaconda]任一python环境后再用</p>
+<p>conda install jupyter 安装后还是没有anaconda环境,或vsocde jupyter找不到对应环境</p>
+<pre><code class="hljs shell">conda install nb_conda_kernels</code></pre>
 
-<p>cmd/shell下执行</p>
-<p>netsh winsock reset</p>
-<p>然后重启docker就好了（临时方案，管不了多久，基本上重启电脑就不行了）</p>
-<p><strong>下面是永久方案</strong></p>
-<ol>
-<li><p>下载NoLsp(需要使用VPN等)</p>
-<p><a target="_blank" rel="noopener" href="http://www.proxifier.com/tmp/Test20200228/NoLsp.exe">http://www.proxifier.com/tmp/Test20200228/NoLsp.exe</a></p>
-<p>或者百度网盘</p>
-<p>链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/14nxzeKvpjf5zSL8Mcu4r8g">https://pan.baidu.com/s/14nxzeKvpjf5zSL8Mcu4r8g</a><br>提取码：iq5s </p>
-</li>
-<li><p>下载的文件建议放在C:\Windows\System32下，也可以随便放，位置你知道就行，如果不是NoLsp.exe建议重命名一下，当前也可以不重命名，使用方便就行了</p>
-<p>cmd下执行（管理员模式）</p>
-<p>NoLsp.exe c:\windows\system32\wsl.exe</p>
-<p>如果不对，肯定是路径不对。</p>
-</li>
-<li><p>启动 wsl</p>
-<p>执行wsl</p>
-</li>
-<li><p>重启Restart Docker Desktop</p>
-</li>
-</ol>
 
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/bugs/">bugs</a>
-                    
-                  </div>
                 
               </div>
               
@@ -282,18 +259,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/03/21/%E5%9C%A8Jupyter%E4%B8%AD%E4%BD%BF%E7%94%A8conda%E7%8E%AF%E5%A2%83/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">在Jupyter中使用conda环境</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/03/20/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%BD%BF%E7%94%A8Tips/">
-                        <span class="hidden-mobile">服务器使用Tips</span>
+                      <a href="/2022/03/30/fuck%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/">
+                        <span class="hidden-mobile">fuck流氓软件</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -455,7 +426,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "docker on win10&nbsp;",
+        "&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2022/06/11/jupter%E5%AF%BB%E6%89%BEconda%E7%8E%AF%E5%A2%83/"/>
+    <url>/2022/06/11/jupter%E5%AF%BB%E6%89%BEconda%E7%8E%AF%E5%A2%83/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>layout: posts<br>title: Jupyter寻找conda环境<br>date: 2022-03-23 17:18:00<br>tags: bugs</p><p>Q:</p><p>安装好<a href="https://so.csdn.net/so/search?q=jupyter&spm=1001.2101.3001.7020">jupyter</a> notebook</p><p>进入后发现只有系统的python kernel</p><p>进入[anaconda]任一python环境后再用</p><p>conda install jupyter 安装后还是没有anaconda环境,或vsocde jupyter找不到对应环境</p><pre><code class="hljs shell">conda install nb_conda_kernels</code></pre>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>fuck流氓软件</title>
     <link href="/2022/03/30/fuck%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/"/>
     <url>/2022/03/30/fuck%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/</url>

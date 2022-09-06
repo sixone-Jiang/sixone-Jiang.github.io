@@ -4,13 +4,19 @@
   
   
   <entry>
-    <title></title>
-    <link href="/2022/06/11/jupter%E5%AF%BB%E6%89%BEconda%E7%8E%AF%E5%A2%83/"/>
-    <url>/2022/06/11/jupter%E5%AF%BB%E6%89%BEconda%E7%8E%AF%E5%A2%83/</url>
+    <title>fluid主题博客hexo g错误</title>
+    <link href="/2022/09/06/fluid%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2hexo%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF/"/>
+    <url>/2022/09/06/fluid%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2hexo%E7%94%9F%E6%88%90%E9%94%99%E8%AF%AF/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>layout: posts<br>title: Jupyter寻找conda环境<br>date: 2022-03-23 17:18:00<br>tags: bugs</p><p>Q:</p><p>安装好<a href="https://so.csdn.net/so/search?q=jupyter&spm=1001.2101.3001.7020">jupyter</a> notebook</p><p>进入后发现只有系统的python kernel</p><p>进入[anaconda]任一python环境后再用</p><p>conda install jupyter 安装后还是没有anaconda环境,或vsocde jupyter找不到对应环境</p><pre><code class="hljs shell">conda install nb_conda_kernels</code></pre>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Q：</p><pre><code class="hljs shell">hexo gYAMLException: Specified list of YAML types (or a single Type object) contains a non-Type object.    at /home/noraj/Dev/hackdoc/node_modules/hexo/node_modules/js-yaml/lib/schema.js:104:13    at Array.forEach (&lt;anonymous&gt;)    at Schema.extend (/home/noraj/Dev/hackdoc/node_modules/hexo/node_modules/js-yaml/lib/schema.js:102:12)    at Object.&lt;anonymous&gt; (/home/noraj/Dev/hackdoc/node_modules/hexo/lib/plugins/renderer/yaml.js:5:36)    at Module._compile (node:internal/modules/cjs/loader:1097:14)    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1151:10)    at Module.load (node:internal/modules/cjs/loader:975:32)    at Function.Module._load (node:internal/modules/cjs/loader:822:12)    at Module.require (node:internal/modules/cjs/loader:999:19)    at require (node:internal/modules/cjs/helpers:102:18)    at module.exports (/home/noraj/Dev/hackdoc/node_modules/hexo/lib/plugins/renderer/index.js:15:16)    at Hexo.init (/home/noraj/Dev/hackdoc/node_modules/hexo/lib/hexo/index.js:235:35)    at /home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/lib/hexo.js:49:17    at tryCatcher (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)    at Promise._settlePromiseFromHandler (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)    at Promise._settlePromise (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)    at Promise._settlePromise0 (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)    at Promise._settlePromises (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18)    at _drainQueueStep (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:93:12)    at _drainQueue (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:86:9)    at Async._drainQueues (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:102:5)    at Immediate.Async.drainQueues [as _onImmediate] (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:15:14) &#123;  reason: &#x27;Specified list of YAML types (or a single Type object) contains a non-Type object.&#x27;,  mark: undefined&#125;</code></pre><p>Solve:</p><pre><code class="hljs shell">npm i hexo@6.0.0</code></pre><p>解答来源：<a href="https://github.com/hexojs/hexo/issues/4917">issues/4917</a></p><p>大概就算hexo版本不符，而且通过一般教程的重装hexo无法解决</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>bugs</tag>
+      
+    </tags>
     
   </entry>
   
@@ -41,6 +47,25 @@
     <url>/2022/03/23/Jupyter%E5%AF%BC%E5%87%BApdf/</url>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>万恶的实验</p><p>你是不是还苦恼在写完实验代码却还要写实验报告！</p><p>没关系，只需要用jupyter导出为html然和在浏览器中导出为pdf！</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>bugs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Jupyter寻找conda环境</title>
+    <link href="/2022/03/23/jupter%E5%AF%BB%E6%89%BEconda%E7%8E%AF%E5%A2%83/"/>
+    <url>/2022/03/23/jupter%E5%AF%BB%E6%89%BEconda%E7%8E%AF%E5%A2%83/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Q:</p><p>安装好<a href="https://so.csdn.net/so/search?q=jupyter&spm=1001.2101.3001.7020">jupyter</a> notebook</p><p>进入后发现只有系统的python kernel</p><p>进入[anaconda]任一python环境后再用</p><p>conda install jupyter 安装后还是没有anaconda环境,或vsocde jupyter找不到对应环境</p><pre><code class="hljs shell">conda install nb_conda_kernels</code></pre>]]></content>
     
     
     
@@ -116,7 +141,7 @@
     <link href="/2022/03/20/%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%BA%8B/"/>
     <url>/2022/03/20/%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%BA%8B/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><p>嘛嘛，未来有好多好多想做的事情呢</p><p>可是，要现在做的话，还是太早了些，太耗费时间了些</p><p>喜欢的，感兴趣的，感动的，故事，游戏，书籍，视频</p><p>不去玩、看的话，心里总会痒痒的</p><p>可心里有着寄托呀， 有着未来和所爱的人憧憬的模样，大概就是这样子</p><p>还有没完成的事情，以在现在的年纪</p><p>所以呀，把这些东西都记录下来，记录本身就是意义呀</p><p>就算将来也过时或用不上了，可总归为未来的我留下了这些曾经的记忆嘛</p><p>所以决定写这么一个东西，会保持更新，大概分为游戏、小说、番剧/电影，小故事，大概这样几个模块啦</p><ul><li>ps：如非特别链接，考虑到未来不存的可能性很大，因此不予给出</li></ul><h2 id="1-游戏"><a href="#1-游戏" class="headerlink" title="1. 游戏"></a>1. 游戏</h2><ul><li><p>如果可以早一点回家</p><ul><li>时间戳 ：2021-12-17</li><li>简介： 是个有些悲伤的故事，一定要多花时间陪伴自己最爱的人呐，不然，心中一定会有所缺憾呢…….</li></ul></li><li><p>原神</p></li><li><p>勇者斗恶龙：创世小玩家2</p></li><li><p>仙剑奇侠传7</p></li><li><p>英雄联盟</p></li><li><p>暖雪</p></li><li><p>双人成行</p></li><li><p>GTA5</p></li></ul><h2 id="2-小说"><a href="#2-小说" class="headerlink" title="2. 小说"></a>2. 小说</h2><ul><li>咕噜咕噜暂时还没有喔</li></ul><h2 id="3-番剧电影"><a href="#3-番剧电影" class="headerlink" title="3. 番剧电影"></a>3. 番剧电影</h2><ul><li>剑网三*侠肝义胆沈剑心</li><li>风灵玉秀</li><li>荧石眼之歌-vivy</li><li>美丽人生</li><li>穿条纹服的男孩</li><li>时光代理人</li><li>仙女教母自救行动</li><li>游戏人生</li><li>你好，世界</li><li>路人女主的养成计划</li><li>青春猪头少女不会遇到兔女郎学姐</li><li>我想吃掉你的胰脏</li><li>更衣人偶坠入爱河</li><li><a href="https://www.bilibili.com/bangumi/media/md28231840/">堀与宫村</a></li><li>路人女主的养成方法</li><li>虎口脱险</li></ul><h2 id="4-小故事"><a href="#4-小故事" class="headerlink" title="4. 小故事"></a>4. 小故事</h2><ul><li>B站拜年祭* 再一次， 猫探长弗雷，铁心博弈，夜的第七章，火锅城历险记</li></ul><h2 id="5-MV"><a href="#5-MV" class="headerlink" title="5. MV"></a>5. MV</h2><ul><li>万类霜天</li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><p>嘛嘛，未来有好多好多想做的事情呢</p><p>可是，要现在做的话，还是太早了些，太耗费时间了些</p><p>喜欢的，感兴趣的，感动的，故事，游戏，书籍，视频</p><p>不去玩、看的话，心里总会痒痒的</p><p>可心里有着寄托呀， 有着未来和所爱的人憧憬的模样，大概就是这样子</p><p>还有没完成的事情，以在现在的年纪</p><p>所以呀，把这些东西都记录下来，记录本身就是意义呀</p><p>就算将来也过时或用不上了，可总归为未来的我留下了这些曾经的记忆嘛</p><p>所以决定写这么一个东西，会保持更新，大概分为游戏、小说、番剧/电影，小故事，大概这样几个模块啦</p><ul><li>ps：如非特别链接，考虑到未来不存的可能性很大，因此不予给出</li></ul><h2 id="1-游戏"><a href="#1-游戏" class="headerlink" title="1. 游戏"></a>1. 游戏</h2><ul><li><p>如果可以早一点回家</p><ul><li>时间戳 ：2021-12-17</li><li>简介： 是个有些悲伤的故事，一定要多花时间陪伴自己最爱的人呐，不然，心中一定会有所缺憾呢…….</li></ul></li><li><p>原神</p></li><li><p>勇者斗恶龙：创世小玩家2</p></li><li><p>仙剑奇侠传7</p></li><li><p>英雄联盟</p></li><li><p>暖雪</p></li><li><p>双人成行</p></li><li><p>GTA5</p></li><li><p>各种二游都可以尝试一下</p></li></ul><h2 id="2-小说"><a href="#2-小说" class="headerlink" title="2. 小说"></a>2. 小说</h2><ul><li>咕噜咕噜暂时还没有喔</li></ul><h2 id="3-番剧电影"><a href="#3-番剧电影" class="headerlink" title="3. 番剧电影"></a>3. 番剧电影</h2><ul><li>剑网三*侠肝义胆沈剑心</li><li>风灵玉秀</li><li>荧石眼之歌-vivy</li><li>美丽人生</li><li>穿条纹服的男孩</li><li>时光代理人</li><li>仙女教母自救行动</li><li>游戏人生</li><li>你好，世界</li><li>路人女主的养成计划</li><li>青春猪头少女不会遇到兔女郎学姐</li><li>我想吃掉你的胰脏</li><li>更衣人偶坠入爱河</li><li><a href="https://www.bilibili.com/bangumi/media/md28231840/">堀与宫村</a></li><li>路人女主的养成方法</li><li>虎口脱险</li><li>仙剑3</li></ul><h2 id="4-小故事"><a href="#4-小故事" class="headerlink" title="4. 小故事"></a>4. 小故事</h2><ul><li>B站拜年祭* 再一次， 猫探长弗雷，铁心博弈，夜的第七章，火锅城历险记</li></ul><h2 id="5-MV"><a href="#5-MV" class="headerlink" title="5. MV"></a>5. MV</h2><ul><li>万类霜天</li></ul>]]></content>
     
     
     
@@ -125,19 +150,6 @@
       <tag>future</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>lifelongtime</title>
-    <link href="/2021/09/26/lifelongtime/"/>
-    <url>/2021/09/26/lifelongtime/</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>long time no see</p>]]></content>
-    
-    
     
   </entry>
   

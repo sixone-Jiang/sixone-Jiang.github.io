@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Alice">
   <meta name="keywords" content="">
-  <title>lifelongtime - Welcome to Alice&#39;s BLOG</title>
+  <title>fluid主题博客hexo g错误 - Welcome to Alice&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -166,8 +166,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-09-26 16:15" pubdate>
-        September 26, 2021 pm
+      <time datetime="2022-09-06 13:48" pubdate>
+        September 6, 2022 pm
       </time>
     </span>
   
@@ -178,7 +178,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      4 字
+      463 字
     </span>
   
 
@@ -188,7 +188,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      8
        分钟
     </span>
   
@@ -226,22 +226,64 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">lifelongtime</h1>
+            <h1 style="display: none">fluid主题博客hexo g错误</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：a year ago
+                  本文最后更新于：3 minutes ago
                 
               </p>
             
             <div class="markdown-body" id="post-body">
-              <p>long time no see</p>
+              <p>Q：</p>
+<pre><code class="hljs shell">hexo g
+YAMLException: Specified list of YAML types (or a single Type object) contains a non-Type object.
+    at /home/noraj/Dev/hackdoc/node_modules/hexo/node_modules/js-yaml/lib/schema.js:104:13
+    at Array.forEach (&lt;anonymous&gt;)
+    at Schema.extend (/home/noraj/Dev/hackdoc/node_modules/hexo/node_modules/js-yaml/lib/schema.js:102:12)
+    at Object.&lt;anonymous&gt; (/home/noraj/Dev/hackdoc/node_modules/hexo/lib/plugins/renderer/yaml.js:5:36)
+    at Module._compile (node:internal/modules/cjs/loader:1097:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1151:10)
+    at Module.load (node:internal/modules/cjs/loader:975:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (/home/noraj/Dev/hackdoc/node_modules/hexo/lib/plugins/renderer/index.js:15:16)
+    at Hexo.init (/home/noraj/Dev/hackdoc/node_modules/hexo/lib/hexo/index.js:235:35)
+    at /home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/lib/hexo.js:49:17
+    at tryCatcher (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/promise.js:729:18)
+    at _drainQueueStep (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:93:12)
+    at _drainQueue (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:86:9)
+    at Async._drainQueues (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (/home/noraj/.asdf/installs/nodejs/17.5.0/.npm/lib/node_modules/hexo-cli/node_modules/bluebird/js/release/async.js:15:14) &#123;
+  reason: &#x27;Specified list of YAML types (or a single Type object) contains a non-Type object.&#x27;,
+  mark: undefined
+&#125;</code></pre>
+
+
+
+<p>Solve:</p>
+<pre><code class="hljs shell">npm i hexo@6.0.0</code></pre>
+
+<p>解答来源：<a href="https://github.com/hexojs/hexo/issues/4917">issues/4917</a></p>
+<p>大概就算hexo版本不符，而且通过一般教程的重装hexo无法解决</p>
 
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/bugs/">bugs</a>
+                    
+                  </div>
                 
               </div>
               
@@ -252,18 +294,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/03/20/%E6%9C%AA%E6%9D%A5%E7%9A%84%E4%BA%8B/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">未来的事.md</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/06/20/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E5%A4%8D%E4%B9%A0/">
-                        <span class="hidden-mobile"></span>
+                      <a href="/2022/03/30/fuck%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/">
+                        <span class="hidden-mobile">fuck流氓软件</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -425,7 +461,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "lifelongtime&nbsp;",
+        "fluid主题博客hexo g错误&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

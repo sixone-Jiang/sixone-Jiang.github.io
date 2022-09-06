@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Alice">
   <meta name="keywords" content="">
-  <title>Tags - Welcome to Alice&#39;s BLOG</title>
+  <title>Archives - Welcome to Alice&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -44,7 +44,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 60vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -167,9 +167,34 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="text-center tagcloud">
-  <a href="/tags/Algorithm/" style="font-size: 15px; color: #bbe">Algorithm</a> <a href="/tags/Birthday/" style="font-size: 30px; color: #337ab7">Birthday</a> <a href="/tags/bugs/" style="font-size: 25px; color: #6090c9">bugs</a> <a href="/tags/daily/" style="font-size: 15px; color: #bbe">daily</a> <a href="/tags/future/" style="font-size: 15px; color: #bbe">future</a> <a href="/tags/my-will/" style="font-size: 15px; color: #bbe">my_will</a> <a href="/tags/tips/" style="font-size: 20px; color: #8ea5dc">tips</a> <a href="/tags/%E6%97%A5%E5%B8%B8%E4%BA%86%E5%95%A6/" style="font-size: 15px; color: #bbe">日常了啦</a>
+<div class="list-group">
+  <p class="h4">22 posts in total.</p>
+  <hr>
+  
+    
+      
+      <p class="h5">2020</p>
+    
+    <a href="/2020/11/05/Alice/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">Alice</span>
+      <time style="float: right;">11-05</time>
+    </a>
+  
 </div>
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/archives/2020/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/archives/2020/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
+  
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
+
+
 
               </div>
             </div>
@@ -283,7 +308,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Tag&nbsp;",
+        "Archive&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2022/09/06/A-Letter-for-you/</loc>
+    
+    <lastmod>2022-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/18/special/</loc>
+    
+    <lastmod>2022-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/05/Alice/</loc>
+    
+    <lastmod>2022-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/12/02/wandering/</loc>
+    
+    <lastmod>2022-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/18/%E6%82%A6%E6%82%A6/</loc>
     
     <lastmod>2022-09-06</lastmod>
@@ -173,15 +209,6 @@
   </url>
   
   <url>
-    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/12/02/wandering/</loc>
-    
-    <lastmod>2020-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/07/My-Lover/</loc>
     
     <lastmod>2020-11-07</lastmod>
@@ -192,15 +219,6 @@
   
   <url>
     <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/06/%E8%93%9D%E6%A1%A5%E6%9D%AF/</loc>
-    
-    <lastmod>2020-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/2020/11/05/Alice/</loc>
     
     <lastmod>2020-11-06</lastmod>
     
@@ -226,13 +244,6 @@
   
   <url>
     <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/tags/my-will/</loc>
-    <lastmod>2022-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/sixone-Jiang/sixone-Jiang.github.io.git/tags/daily/</loc>
     <lastmod>2022-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

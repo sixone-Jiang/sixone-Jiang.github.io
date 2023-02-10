@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>vscode jupyter 无法正常使用</title>
+    <link href="/2023/02/10/vscode-jupyter/"/>
+    <url>/2023/02/10/vscode-jupyter/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="vscode-jupyter-无法正常使用"><a href="#vscode-jupyter-无法正常使用" class="headerlink" title="vscode jupyter 无法正常使用"></a>vscode jupyter 无法正常使用</h2><ul><li><p>参考链接：<a href="https://blog.csdn.net/weixin_52096278/article/details/126568679">https://blog.csdn.net/weixin_52096278/article/details/126568679</a></p></li><li><p>核心为pyzmq版本不适配</p><pre><code class="hljs shell">pip uninstall jupyter-client pip install jupyter-client==6.1.12 pip uninstall pyzmqpip install pyzmq==19.0.2  </code></pre></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>bugs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>A Letter for you</title>
     <link href="/2022/09/06/A-Letter-for-you/"/>
     <url>/2022/09/06/A-Letter-for-you/</url>

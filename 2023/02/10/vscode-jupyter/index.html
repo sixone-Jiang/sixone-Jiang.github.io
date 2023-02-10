@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Alice">
   <meta name="keywords" content="">
-  <title>wandering - Welcome to Alice&#39;s BLOG</title>
+  <title>vscode jupyter 无法正常使用 - Welcome to Alice&#39;s BLOG</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -166,8 +166,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-02 12:00" pubdate>
-        December 2, 2020 pm
+      <time datetime="2023-02-10 16:35" pubdate>
+        February 10, 2023 pm
       </time>
     </span>
   
@@ -178,7 +178,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      22 字
+      49 字
     </span>
   
 
@@ -226,18 +226,28 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto" id="post">
             <!-- SEO header -->
-            <h1 style="display: none">wandering</h1>
+            <h1 style="display: none">vscode jupyter 无法正常使用</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：5 months ago
+                  本文最后更新于：2 minutes ago
                 
               </p>
             
             <div class="markdown-body" id="post-body">
-              <ul>
-<li><del>或许这样的感觉将会伴随我一生</del></li>
-<li><del>但幸好，有你陪着我</del></li>
+              <h2 id="vscode-jupyter-无法正常使用"><a href="#vscode-jupyter-无法正常使用" class="headerlink" title="vscode jupyter 无法正常使用"></a>vscode jupyter 无法正常使用</h2><ul>
+<li><p>参考链接：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_52096278/article/details/126568679">https://blog.csdn.net/weixin_52096278/article/details/126568679</a></p>
+</li>
+<li><p>核心为pyzmq版本不适配</p>
+<pre><code class="hljs shell">pip uninstall jupyter-client 
+pip install jupyter-client==6.1.12 
+pip uninstall pyzmq
+pip install pyzmq==19.0.2  
+</code></pre>
+
+
+
+</li>
 </ul>
 
             </div>
@@ -249,7 +259,7 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/my-will/">my_will</a>
+                      <a class="hover-with-bg" href="/tags/bugs/">bugs</a>
                     
                   </div>
                 
@@ -262,18 +272,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/04/20/CV/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">CV.md</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2020/11/18/special/">
-                        <span class="hidden-mobile">special</span>
+                      <a href="/2022/09/06/A-Letter-for-you/">
+                        <span class="hidden-mobile">A Letter for you</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -435,7 +439,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "wandering&nbsp;",
+        "vscode jupyter 无法正常使用&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
